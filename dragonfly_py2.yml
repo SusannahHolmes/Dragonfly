@@ -1,4 +1,4 @@
-name: dragonfly
+name: dragonfly_py2
 channels:
   - conda-forge
   - defaults
