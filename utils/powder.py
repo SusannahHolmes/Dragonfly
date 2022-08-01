@@ -31,7 +31,7 @@ def main():
     powder = np.zeros(det.x.shape, dtype=np.int32)
     assem_powder = np.zeros(det.frame_shape, dtype=np.int32)
     
-    #if photons input file is a .emc extension - is this right? or is it .bin? the wiki said the sparse data format is .emc
+    #if photons input file is a .emc extension
     if str(photons_list[0]).split('.')[-1] == 'emc':
         # For each emc file, read data and add to powder
         for photons_file in photons_list:
