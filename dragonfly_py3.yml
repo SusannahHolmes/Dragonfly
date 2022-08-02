@@ -14,7 +14,6 @@ dependencies:
   - bzip2=1.0.8=h7b6447c_0
   - c-ares=1.18.1=h7f8727e_0
   - ca-certificates=2022.07.19=h06a4308_0
-  - cached-property=1.5.2=py_0
   - certifi=2022.6.15=py310h06a4308_0
   - cmake=3.22.1=h1fce559_0
   - cycler=0.11.0=pyhd8ed1ab_0
@@ -33,8 +32,8 @@ dependencies:
   - gsl=2.7.1=h6e86dc7_1
   - gst-plugins-base=1.18.5=hc549b11_0
   - gstreamer=1.18.5=ha1a6a79_0
-  - h5py=3.7.0=nompi_py310h06dffec_100
-  - hdf5=1.12.1=h70be1eb_2
+  - h5py=3.7.0=py310he06866b_0
+  - hdf5=1.10.6=h3ffc7dd_1
   - icu=68.2=h9c3ff4c_0
   - intel-openmp=2021.4.0=h06a4308_3561
   - joblib=1.1.0=pyhd3eb1b0_0
@@ -137,3 +136,4 @@ dependencies:
   - xz=5.2.5=h516909a_1
   - zlib=1.2.12=h166bdaf_2
   - zstd=1.5.2=ha4553b6_0
+prefix: /home/srholmes/anaconda3/envs/dragonfly_py3

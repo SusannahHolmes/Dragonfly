@@ -51,7 +51,7 @@ def main():
     
     #if photons input file is an .h5 extension
     elif str(photons_list[0]).split('.')[-1] == 'h5':
-        # For each emc file, read data and add to powder
+        # Read data and add to make powder
         for photons_file in photons_list:
             # Read photon data
             with h5py.File(photons_file) as fptr:
