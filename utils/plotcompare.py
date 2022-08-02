@@ -9,7 +9,7 @@ from py_src import detector
 import sys
 import os
 import h5py
-from plot1d import *
+from py_src.plot1d import *
 
 curr = os.getcwd()
 firstdir = input("enter full directory location of first dataset to compare (eg. /home/Dragonfly/recon_0001/):")
