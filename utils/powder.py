@@ -31,7 +31,7 @@ def main():
     powder = np.zeros(det.x.shape, dtype=np.int32)
     assem_powder = np.zeros(det.frame_shape, dtype=np.int32)
     
-    #if photons input file is a .emc extension
+    #if photons input file is an .emc extension
     if str(photons_list[0]).split('.')[-1] == 'emc':
         # For each emc file, read data and add to powder
         for photons_file in photons_list:
@@ -49,7 +49,7 @@ def main():
                 place_multi = np.fromfile(fptr, dtype='i4', count=multi.sum())
                 count_multi = np.fromfile(fptr, dtype='i4', count=multi.sum())
     
-    #if photons input file is .h5 extension
+    #if photons input file is an .h5 extension
     elif str(photons_list[0]).split('.')[-1] == 'h5':
         # For each emc file, read data and add to powder
         for photons_file in photons_list:
